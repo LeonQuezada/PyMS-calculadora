@@ -10,5 +10,5 @@ before_script:
   - flake8 --max-complexity=15 --exclude=*.txt,*.md *
 
 script: 
-   - cd test
-   - python test.py -v
+   - cd calculadora
+   - lettuce tests/
