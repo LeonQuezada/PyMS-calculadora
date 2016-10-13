@@ -11,6 +11,14 @@ def dado_que_tengo_el_numero_group1_y_group1(step, num1, num2):
 def cuando_realizo_la_suma(step):
     pass
 
+@step(u'cuando realizo  la resta')
+def cuando_realizo_la_resta(step):
+    pass
+
+@step(u'cuando realizo  la multiplicacion')
+def cuando_realizo_la_multiplicacion(step):
+    pass
+
 @step(u'entoces el resultado que obtengo en "([^"]*)"')
 def entoces_el_resultado_que_obtengo_en_group1(step, esperado):
     assert int(esperado)==world.resultado, 'El resultado esperado no es el mismo'+' error:'+esperado+' '+world.resultado
