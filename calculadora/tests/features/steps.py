@@ -7,6 +7,11 @@ def dado_que_tengo_el_numero_group1_y_group1(step, num1, num2):
     cal = calculadora()
     world.resultado = cal.suma(float(num1),float(num2))
 
+@step(u'dado que tengo el numero para dividir "([^"]*)" y "([^"]*)"')
+def dado_que_tengo_el_numero_para_dividir_group1_y_group1(step, num1, num2):
+    cal = calculadora()
+    world.resultado = cal.divicion(float(num1),float(num2))
+
 @step(u'cuando realizo  la suma')
 def cuando_realizo_la_suma(step):
     pass
