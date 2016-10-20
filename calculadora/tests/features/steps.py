@@ -12,6 +12,17 @@ def dado_que_tengo_el_numero_para_dividir_group1_y_group1(step, num1, num2):
     cal = calculadora()
     world.resultado = cal.divicion(float(num1),float(num2))
 
+@step(u'dado que tengo el numero para restar "([^"]*)" y "([^"]*)"')
+def dado_que_tengo_el_numero_para_restar_group1_y_group2(step, num1, num2):
+    cal = calculadora()
+    world.resultado = cal.resta(float(num1),float(num2))
+
+@step(u'dado que tengo el numero para multiplicar "([^"]*)" y "([^"]*)"')
+def dado_que_tengo_el_numero_para_multiplicar_group1_y_group2(step, num1, num2):
+    cal = calculadora()
+    world.resultado = cal.multiplicacion(float(num1),float(num2))
+
+
 @step(u'cuando realizo  la suma')
 def cuando_realizo_la_suma(step):
     pass
