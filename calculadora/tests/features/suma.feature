@@ -18,17 +18,7 @@ Feature: sumar de dos numeros
 		cuando realizo  la suma
 		entoces el resultado que obtengo en "3000"
 
-    Scenario: sumar -2 mas -3
-		dado que tengo el numero "-2" y "-3"
-		cuando realizo  la suma
-		entoces el resultado que obtengo en "-5"
-
-    Scenario: restar -2 mas -3
+    Scenario: sumar 2 menos -3
 		dado que tengo el numero "2" y "-3"
-		cuando realizo  la resta
+		cuando realizo  la suma
 		entoces el resultado que obtengo en "-1"
-
-    Scenario: multiplicacion 2 mas 2
-		dado que tengo el numero "2" y "2"
-		cuando realizo  la multiplicacion
-		entoces el resultado que obtengo en "4"

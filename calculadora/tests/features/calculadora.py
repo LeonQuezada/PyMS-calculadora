@@ -1,4 +1,8 @@
 class calculadora:
+
+	def divicion(self,num1,num2):
+		return num1 / num2
+
 	def suma(self,num1,num2):
 		return num1 + num2
 
@@ -6,7 +10,4 @@ class calculadora:
 		return num1 - num2
 
 	def multiplicacion(self,num1,num2):
-		return num1 * num2
-
-	def dividir(self,num1,num2):
 		return num1 * num2
